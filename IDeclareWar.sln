@@ -16,7 +16,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".sln", ".sln", "{C4B1ABB2-2
 		README.md = README.md
 		Scenario.md = Scenario.md
 		stylecop.json = stylecop.json
+		shuffle.md = shuffle.md
+		directory.packages.props = directory.packages.props
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "War.Domain.Test", "test\War.Domain.Test\War.Domain.Test.csproj", "{58BAA12F-0FE3-4E32-AE82-ED19D1E1A327}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,8 +32,13 @@ Global
 		{17BFEDD1-7968-44D4-8C47-9B03905436B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17BFEDD1-7968-44D4-8C47-9B03905436B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17BFEDD1-7968-44D4-8C47-9B03905436B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58BAA12F-0FE3-4E32-AE82-ED19D1E1A327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58BAA12F-0FE3-4E32-AE82-ED19D1E1A327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58BAA12F-0FE3-4E32-AE82-ED19D1E1A327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58BAA12F-0FE3-4E32-AE82-ED19D1E1A327}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{17BFEDD1-7968-44D4-8C47-9B03905436B4} = {9FE52DE7-69C1-4962-A532-F3708044BFC2}
+		{58BAA12F-0FE3-4E32-AE82-ED19D1E1A327} = {ECC8B5D3-5CC8-46E3-B83E-5BAC910F2F94}
 	EndGlobalSection
 EndGlobal
