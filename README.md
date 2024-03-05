@@ -1,5 +1,9 @@
 # card-game-war
 
+## dotnet implementation
+
+Took the important bits from [wonderland-clojure-katas](https://github.com/gigasquid/wonderland-clojure-katas/tree/master/card-game-war)
+
 This kata is a version of the classic card game [War](http://en.wikipedia.org/wiki/War_%28card_game%29).
 
 ![Cards Painting](./image/cards.painting.png)
@@ -17,7 +21,7 @@ The rules of this card game are quite simple.
 - If both cards are of equal value - three cards are dealt from each hand face down and then 1 more face up to war again. the winner takes all the cards. If this ties repeat the process again.
 - The player that runs out of cards loses.
 
-If you are stuck, you might want to sneak a peak at this [sample scenario](sample_scenario.md)
+If you are stuck, you might want to sneak a peak at this [sample scenario](scenario.md)
 
 ## Instructions
 
@@ -54,7 +58,7 @@ Once you have your kata solution, you are welcome to submit a link to your repo 
 * https://github.com/LucianaMarques/wonderland-clojure-katas/tree/luciana-card-game-war
 * https://github.com/raydel95/wonderland-clojure-katas/tree/master/card-game-war
 * https://github.com/manuel-colmenero/wonderland-clojure-katas/tree/master/card-game-war
-* https://github.com/kuchichan/wonderland-clojure-katas/tree/master/card-game-war
+* https://github.com/kuchichan/wonderland-clojure-katas/tree/master/card-game-warwa
 
 If you haven't solved your kata yet - Don't Peek!
 
@@ -64,3 +68,11 @@ Copyright © 2014 Carin Meier
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
+
+## Goals
+
+1. Read Requirements and translate them to acceptance criteria
+2. Practice Behavior Driven Development
+   1. SOLID
+   2. Encapsulation
+   3. Test Driven
