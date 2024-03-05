@@ -20,11 +20,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".sln", ".sln", "{C4B1ABB2-2
 		directory.packages.props = directory.packages.props
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "War.Domain.Test", "test\War.Domain.Test\War.Domain.Test.csproj", "{58BAA12F-0FE3-4E32-AE82-ED19D1E1A327}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Test", "test\Domain.Test\Domain.Test.csproj", "{58BAA12F-0FE3-4E32-AE82-ED19D1E1A327}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{1EE38377-E591-49EC-B915-6E480A766F47}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = ".build", ".build\.build.csproj", "{05C0F441-D391-41BF-B23D-5F8E7485F585}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Domain\Domain.csproj", "{AC1F3882-0566-4BC1-973F-4FDE9BDD79C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,10 +44,15 @@ Global
 		{58BAA12F-0FE3-4E32-AE82-ED19D1E1A327}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58BAA12F-0FE3-4E32-AE82-ED19D1E1A327}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58BAA12F-0FE3-4E32-AE82-ED19D1E1A327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC1F3882-0566-4BC1-973F-4FDE9BDD79C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC1F3882-0566-4BC1-973F-4FDE9BDD79C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC1F3882-0566-4BC1-973F-4FDE9BDD79C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC1F3882-0566-4BC1-973F-4FDE9BDD79C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{17BFEDD1-7968-44D4-8C47-9B03905436B4} = {9FE52DE7-69C1-4962-A532-F3708044BFC2}
 		{58BAA12F-0FE3-4E32-AE82-ED19D1E1A327} = {ECC8B5D3-5CC8-46E3-B83E-5BAC910F2F94}
 		{05C0F441-D391-41BF-B23D-5F8E7485F585} = {1EE38377-E591-49EC-B915-6E480A766F47}
+		{AC1F3882-0566-4BC1-973F-4FDE9BDD79C3} = {A44C0F71-EA75-42D2-9838-138941BFC5FA}
 	EndGlobalSection
 EndGlobal

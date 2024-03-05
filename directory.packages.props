@@ -14,7 +14,6 @@
         <PackageVersion Include="NUnit3TestAdapter" Version="4.2.1"/>
         <PackageVersion Include="NUnit.Analyzers" Version="3.6.1"/>
         <PackageVersion Include="FakeItEasy" Version="8.1.0"/>
-        <PackageVersion Include="ReactiveUI.Testing" Version="19.5.41"/>
         <PackageVersion Include="Rocket.Surgery.Extensions.Testing.Fixtures" Version="8.0.3"/>
         <PackageVersion Include="Rocket.Surgery.Extensions.Testing.FakeItEasy" Version="8.0.3"/>
     </ItemGroup>
